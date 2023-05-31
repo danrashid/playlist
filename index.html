@@ -17,7 +17,7 @@
       </tbody>
     </table>
     <script type="module">
-      const res = await fetch("/tracks.json");
+      const res = await fetch("./tracks.json");
       const tracks = await res.json();
       const columns = document.getElementById("columns");
       const rows = document.getElementById("rows");
