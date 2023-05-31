@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>playlist</title>
+  </head>
+
+  <body>
+    <table>
+      <thead id="columns"></thead>
+      <tbody id="rows">
+        <tr>
+          <td>Loading...</td>
+        </tr>
+      </tbody>
+    </table>
+    <script type="module">
+      const res = await fetch("/tracks.json");
+      const tracks = await res.json();
+      const columns = document.getElementById("columns");
+      const rows = document.getElementById("rows");
+
+      Object.keys(tracks[0]).forEach((column) => {
+        const th = document.createElement("th");
+        th.innerHTML = column;
+        columns.appendChild(th);
+      });
+
+      const trackEls = [];
+      tracks.forEach((track) => {
+        const tr = document.createElement("tr");
+        Object.values(track).forEach((value) => {
+          const td = document.createElement("td");
+          td.innerHTML = value;
+          tr.appendChild(td);
+        });
+        trackEls.push(tr);
+      });
+      rows.replaceChildren(...trackEls);
+    </script>
+  </body>
+</html>
