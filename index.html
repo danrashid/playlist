@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>playlist</title>
     <style>
+      body,
+      a {
+        color: lime;
+      }
       body {
         background: black;
-        color: lime;
         font-family: monospace;
         margin: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
       }
       table {
         border-collapse: collapse;
@@ -23,6 +32,7 @@
       th {
         text-align: left;
         background: darkgreen;
+        color: white;
       }
       td {
         border-top: 1px solid darkgreen;
@@ -61,20 +71,24 @@
         columnsEl.appendChild(th);
       });
 
-      const parse = (key, value) =>
+      const parse = (key, track) =>
         ((
           {
-            artists: (value) => value.join(", "),
-            addedAt: (value) => new Date(value).toISOString().slice(0, 10),
-          }[key] || ((value) => value)
-        )(value));
+            artists: (track) =>
+              track[key]
+                .map((artist) => `<a href="${artist.uri}">${artist.name}</a>`)
+                .join(", "),
+            title: (track) => `<a href="${track.uri}">${track.title}</a>`,
+            addedAt: (track) => new Date(track[key]).toISOString().slice(0, 10),
+          }[key] || ((track) => track[key])
+        )(track));
 
       const trackEls = [];
       tracks.forEach((track) => {
         const tr = document.createElement("tr");
         Object.keys(columns).forEach((key) => {
           const td = document.createElement("td");
-          td.innerHTML = parse(key, track[key]);
+          td.innerHTML = parse(key, track);
           tr.appendChild(td);
         });
         trackEls.push(tr);
