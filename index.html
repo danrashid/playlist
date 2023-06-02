@@ -54,13 +54,13 @@
       </tbody>
     </table>
     <script type="module">
-      const res = await fetch("./tracks.json");
-      const tracks = await res.json();
+      const res = await fetch("./playlist.json");
+      const playlist = await res.json();
       const columnsEl = document.getElementById("columns");
       const rowsEl = document.getElementById("rows");
 
       const columns = {
-        artists: "Artist(s)",
+        artist_ids: "Artist(s)",
         title: "Title",
         addedAt: "Added On",
       };
@@ -74,17 +74,21 @@
       const parse = (key, track) =>
         ((
           {
-            artists: (track) =>
+            artist_ids: (track) =>
               track[key]
-                .map((artist) => `<a href="${artist.uri}">${artist.name}</a>`)
+                .map(
+                  (id) =>
+                    `<a href="spotify:artist:${id}">${playlist.artists[id]}</a>`
+                )
                 .join(", "),
-            title: (track) => `<a href="${track.uri}">${track.title}</a>`,
+            title: (track) =>
+              `<a href="spotify:track:${track.id}">${track.title}</a>`,
             addedAt: (track) => new Date(track[key]).toISOString().slice(0, 10),
           }[key] || ((track) => track[key])
         )(track));
 
       const trackEls = [];
-      tracks.forEach((track) => {
+      playlist.tracks.forEach((track) => {
         const tr = document.createElement("tr");
         Object.keys(columns).forEach((key) => {
           const td = document.createElement("td");
