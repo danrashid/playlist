@@ -28,7 +28,7 @@
     </table>
     <script type="module">
       const res = await fetch("./tracks.json");
-      const tracks = (await res.json()).map(({ id, ...rest }) => rest);
+      const tracks = await res.json();
       const columnsEl = document.getElementById("columns");
       const rowsEl = document.getElementById("rows");
 
