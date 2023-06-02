@@ -81,21 +81,23 @@
         columnsEl.replaceChildren(...columnEls);
       };
 
-      const parseValue = (key, track) =>
-        ((
-          {
-            artist_ids: (track) =>
-              track[key]
-                .map(
-                  (id) =>
-                    `<a href="spotify:artist:${id}">${playlist.artists[id]}</a>`
-                )
-                .join(", "),
-            title: (track) =>
-              `<a href="spotify:track:${track.id}">${track.title}</a>`,
-            addedAt: (track) => new Date(track[key]).toISOString().slice(0, 10),
-          }[key] || ((track) => track[key])
-        )(track));
+      const parseValue = (key, track) => {
+        switch (key) {
+          case "artist_ids":
+            return track[key]
+              .map(
+                (id) =>
+                  `<a href="spotify:artist:${id}">${playlist.artists[id]}</a>`
+              )
+              .join(", ");
+          case "title":
+            return `<a href="spotify:track:${track.id}">${track.title}</a>`;
+          case "addedAt":
+            return new Date(track[key]).toISOString().slice(0, 10);
+          default:
+            return track[key];
+        }
+      };
 
       const renderRows = () => {
         const rowEls = [];
@@ -111,13 +113,15 @@
         rowsEl.replaceChildren(...rowEls);
       };
 
-      const getArtistNames = (track) =>
-        track.artist_ids.map((id) => playlist.artists[id]).toString();
+      const stringifyArtistNames = (artist_ids) =>
+        artist_ids.map((id) => playlist.artists[id]).toString();
 
       const sortBy = (key, direction) => {
         playlist.tracks.sort((a, b) =>
           key === "artist_ids"
-            ? getArtistNames(a).localeCompare(getArtistNames(b))
+            ? stringifyArtistNames(a[key]).localeCompare(
+                stringifyArtistNames(b[key])
+              )
             : a[key].toString().localeCompare(b[key].toString())
         );
         if (direction === "desc") {
