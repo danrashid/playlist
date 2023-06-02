@@ -5,6 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>playlist</title>
+    <style>
+      body {
+        background: black;
+        color: lime;
+        font-family: monospace;
+      }
+      th {
+        text-align: left;
+      }
+    </style>
   </head>
 
   <body>
@@ -18,27 +28,41 @@
     </table>
     <script type="module">
       const res = await fetch("./tracks.json");
-      const tracks = await res.json();
-      const columns = document.getElementById("columns");
-      const rows = document.getElementById("rows");
+      const tracks = (await res.json()).map(({ id, ...rest }) => rest);
+      const columnsEl = document.getElementById("columns");
+      const rowsEl = document.getElementById("rows");
 
-      Object.keys(tracks[0]).forEach((column) => {
+      const columns = {
+        artists: "Artist(s)",
+        title: "Title",
+        addedAt: "Added On",
+      };
+
+      Object.entries(columns).forEach(([key, value]) => {
         const th = document.createElement("th");
-        th.innerHTML = column;
-        columns.appendChild(th);
+        th.innerHTML = value;
+        columnsEl.appendChild(th);
       });
+
+      const parse = (key, value) =>
+        ((
+          {
+            artists: (value) => value.join(", "),
+            addedAt: (value) => new Date(value).toISOString().slice(0, 10),
+          }[key] || ((value) => value)
+        )(value));
 
       const trackEls = [];
       tracks.forEach((track) => {
         const tr = document.createElement("tr");
-        Object.values(track).forEach((value) => {
+        Object.keys(columns).forEach((key) => {
           const td = document.createElement("td");
-          td.innerHTML = value;
+          td.innerHTML = parse(key, track[key]);
           tr.appendChild(td);
         });
         trackEls.push(tr);
       });
-      rows.replaceChildren(...trackEls);
+      rowsEl.replaceChildren(...trackEls);
     </script>
   </body>
 </html>
