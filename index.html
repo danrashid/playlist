@@ -10,13 +10,26 @@
         background: black;
         color: lime;
         font-family: monospace;
+        margin: 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      thead {
+        position: sticky;
+        top: 0;
       }
       th {
         text-align: left;
+        background: darkgreen;
       }
-      th:not(:first-child),
-      td:not(:first-child) {
-        padding-left: 2em;
+      td {
+        border-top: 1px solid darkgreen;
+      }
+      th,
+      td {
+        padding: 0.5em 2em;
       }
     </style>
   </head>
