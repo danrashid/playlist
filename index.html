@@ -18,6 +18,7 @@
       a {
         text-decoration: none;
       }
+      a.active,
       a:hover {
         color: white;
       }
@@ -32,7 +33,6 @@
       th {
         text-align: left;
         background: darkgreen;
-        color: white;
       }
       tr:nth-child(even) {
         background-color: #202020;
@@ -68,13 +68,20 @@
         addedAt: "Added On",
       };
 
-      Object.entries(columns).forEach(([key, value]) => {
-        const th = document.createElement("th");
-        th.innerHTML = value;
-        columnsEl.appendChild(th);
-      });
+      const renderColumns = (hashKey, direction) => {
+        const columnEls = [];
+        Object.entries(columns).forEach(([key, value]) => {
+          const th = document.createElement("th");
+          const href = `#${key}.${direction === "asc" ? "desc" : "asc"}`;
+          const className = hashKey === key ? "active" : "";
 
-      const parse = (key, track) =>
+          th.innerHTML = `<a href="${href}" class="${className}">${value}</a>`;
+          columnEls.push(th);
+        });
+        columnsEl.replaceChildren(...columnEls);
+      };
+
+      const parseValue = (key, track) =>
         ((
           {
             artist_ids: (track) =>
@@ -90,17 +97,46 @@
           }[key] || ((track) => track[key])
         )(track));
 
-      const trackEls = [];
-      playlist.tracks.forEach((track) => {
-        const tr = document.createElement("tr");
-        Object.keys(columns).forEach((key) => {
-          const td = document.createElement("td");
-          td.innerHTML = parse(key, track);
-          tr.appendChild(td);
+      const renderRows = () => {
+        const rowEls = [];
+        playlist.tracks.forEach((track) => {
+          const tr = document.createElement("tr");
+          Object.keys(columns).forEach((key) => {
+            const td = document.createElement("td");
+            td.innerHTML = parseValue(key, track);
+            tr.appendChild(td);
+          });
+          rowEls.push(tr);
         });
-        trackEls.push(tr);
+        rowsEl.replaceChildren(...rowEls);
+      };
+
+      const getArtistNames = (track) =>
+        track.artist_ids.map((id) => playlist.artists[id]).toString();
+
+      const sortBy = (key, direction) => {
+        playlist.tracks.sort((a, b) =>
+          key === "artist_ids"
+            ? getArtistNames(a).localeCompare(getArtistNames(b))
+            : a[key].toString().localeCompare(b[key].toString())
+        );
+        if (direction === "desc") {
+          playlist.tracks.reverse();
+        }
+      };
+
+      const render = (hash) => {
+        const [hashKey, direction] = hash.slice(1).split(".");
+        sortBy(hashKey, direction);
+        renderColumns(hashKey, direction);
+        renderRows();
+      };
+
+      window.addEventListener("hashchange", () => {
+        render(window.location.hash);
       });
-      rowsEl.replaceChildren(...trackEls);
+
+      render(window.location.hash || "#addedAt.desc");
     </script>
   </body>
 </html>
