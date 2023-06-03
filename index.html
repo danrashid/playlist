@@ -59,8 +59,8 @@
     <script type="module">
       const res = await fetch("./playlist.json");
       const playlist = await res.json();
-      const columnsEl = document.getElementById("columns");
-      const rowsEl = document.getElementById("rows");
+      const thead = document.getElementById("columns");
+      const tbody = document.getElementById("rows");
 
       const columns = {
         artist_ids: "Artist(s)",
@@ -69,16 +69,16 @@
       };
 
       const renderColumns = (hashKey, direction) => {
-        const columnEls = [];
+        const ths = [];
         Object.entries(columns).forEach(([key, value]) => {
           const th = document.createElement("th");
           const href = `#${key}.${direction === "asc" ? "desc" : "asc"}`;
           const className = hashKey === key ? "active" : "";
 
           th.innerHTML = `<a href="${href}" class="${className}">${value}</a>`;
-          columnEls.push(th);
+          ths.push(th);
         });
-        columnsEl.replaceChildren(...columnEls);
+        thead.replaceChildren(...ths);
       };
 
       const parseValue = (key, track) => {
@@ -100,7 +100,7 @@
       };
 
       const renderRows = () => {
-        const rowEls = [];
+        const trs = [];
         playlist.tracks.forEach((track) => {
           const tr = document.createElement("tr");
           Object.keys(columns).forEach((key) => {
@@ -108,9 +108,9 @@
             td.innerHTML = parseValue(key, track);
             tr.appendChild(td);
           });
-          rowEls.push(tr);
+          trs.push(tr);
         });
-        rowsEl.replaceChildren(...rowEls);
+        tbody.replaceChildren(...trs);
       };
 
       const stringifyArtistNames = (artist_ids) =>
