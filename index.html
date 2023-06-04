@@ -12,7 +12,8 @@
       }
       body {
         background: black;
-        font-family: monospace;
+        font-family: sans-serif;
+        font-size: 0.875em;
         margin: 0;
       }
       a {
@@ -33,16 +34,18 @@
       th {
         text-align: left;
         background: darkgreen;
+        white-space: nowrap;
+        font-weight: normal;
       }
       tr:nth-child(even) {
-        background-color: #202020;
+        background-color: #1a1a1a;
       }
       td {
         border-top: 1px solid darkgreen;
       }
       th,
       td {
-        padding: 0.5em 2em;
+        padding: 0.5rem 1rem;
       }
     </style>
   </head>
@@ -81,10 +84,10 @@
         thead.replaceChildren(...ths);
       };
 
-      const parseValue = (key, track) => {
+      const renderValue = (key, track) => {
         switch (key) {
           case "artist_ids":
-            return track[key]
+            return track.artist_ids
               .map(
                 (id) =>
                   `<a href="spotify:artist:${id}">${playlist.artists[id]}</a>`
@@ -93,7 +96,7 @@
           case "title":
             return `<a href="spotify:track:${track.id}">${track.title}</a>`;
           case "addedAt":
-            return new Date(track[key]).toISOString().slice(0, 10);
+            return new Date(track.addedAt).toISOString().slice(2, 10);
           default:
             return track[key];
         }
@@ -105,7 +108,7 @@
           const tr = document.createElement("tr");
           Object.keys(columns).forEach((key) => {
             const td = document.createElement("td");
-            td.innerHTML = parseValue(key, track);
+            td.innerHTML = renderValue(key, track);
             tr.appendChild(td);
           });
           trs.push(tr);
@@ -119,8 +122,8 @@
       const sortBy = (key, direction) => {
         playlist.tracks.sort((a, b) =>
           key === "artist_ids"
-            ? stringifyArtistNames(a[key]).localeCompare(
-                stringifyArtistNames(b[key])
+            ? stringifyArtistNames(a.artist_ids).localeCompare(
+                stringifyArtistNames(b.artist_ids)
               )
             : a[key].toString().localeCompare(b[key].toString())
         );
