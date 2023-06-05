@@ -125,7 +125,9 @@
             ? stringifyArtistNames(a.artist_ids).localeCompare(
                 stringifyArtistNames(b.artist_ids)
               )
-            : a[key].toString().localeCompare(b[key].toString())
+            : typeof a[key] === "string"
+            ? a[key].localeCompare(b[key])
+            : a[key] - b[key]
         );
         if (direction === "desc") {
           playlist.tracks.reverse();
