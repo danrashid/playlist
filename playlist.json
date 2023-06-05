@@ -1,5 +1,20 @@
 {
   "artists": {
+    "4pejUc4iciQfgdX6OKulQn": "Queens of the Stone Age",
+    "01WjpKiWVNurV5hjIadB8C": "Filter",
+    "3OsRAKCvk37zwYcnzRf5XF": "Moby",
+    "1lhaaKpTyXOnjp79M3xYBl": "Amythyst Kiah",
+    "6M2wZ9GZgrQXHCFfjv46we": "Dua Lipa",
+    "1Xyo4u8uXC1ZmMpatF05PJ": "The Weeknd",
+    "1HY2Jd0NmPuamShAr6KMms": "Lady Gaga",
+    "1Cs0zKBU1kc0i8ypK3B9ai": "David Guetta",
+    "1zNqDE7qDGCsyzJwohVaoX": "Anne-Marie",
+    "6AMd49uBDJfhf30Ak2QR5s": "Coi Leray",
+    "5pKCCKE2ajJHZ9KAiaK11H": "Rihanna",
+    "7CajNmpbOovFoOoasH2HaY": "Calvin Harris",
+    "50zRydJXfkLzGIOj9mITfy": "Jan Hammer",
+    "6Tz0QRoe083BcOo2YbG9lV": "Nena",
+    "0uAjBatvB4ubpd4kCfjmNt": "A Flock Of Seagulls",
     "4kI8Ie27vjvonwaB2ePh8T": "Portugal. The Man",
     "5hE6NCoobhyEu6TRSbjOJY": "Fever Ray",
     "4NH2deLFDDB0YeV3PNLjWQ": "32Stitches",
@@ -63,7 +78,6 @@
     "137W8MRPWKqSmrBGDBFSop": "Wiz Khalifa",
     "6awzBEyEEwWHOjLox1DkLr": "Girl Talk",
     "7bcbShaqKdcyjnmv4Ix8j6": "St. Vincent",
-    "1Xyo4u8uXC1ZmMpatF05PJ": "The Weeknd",
     "6hyMWrxGBsOx6sWcVj1DqP": "Sebastian Ingrosso",
     "5PdkRVDASsw6P7QoqRpz0F": "Salvatore Ganacci",
     "6beUvFUlKliUYJdLOXNj9C": "King Princess",
@@ -137,7 +151,6 @@
     "2UazAtjfzqBF0Nho2awK4z": "Stone Temple Pilots",
     "5TfnQ0Ai1cEbKY5katFK14": "Ladyhawke",
     "6UE7nl9mha6s8z0wFQFIZ2": "Robyn",
-    "4pejUc4iciQfgdX6OKulQn": "Queens of the Stone Age",
     "16GcWuvvybAoaHr0NqT8Eh": "Alabama Shakes",
     "5AUTN6tMncnOnYgJK1VM6K": "Sam i",
     "31TPClRtHm23RisEBtV3X7": "Justin Timberlake",
@@ -198,7 +211,6 @@
     "4NpFxQe2UvRCAjto3JqlSl": "Greta Van Fleet",
     "43ZHCT0cAZBISjO8DG9PnE": "Elvis Presley",
     "5svDnd8joFhbpbA3Ar0CfN": "Junkie XL",
-    "5pKCCKE2ajJHZ9KAiaK11H": "Rihanna",
     "6ZLTlhejhndI4Rh53vYhrY": "Ozzy Osbourne",
     "163tK9Wjr9P9DmM0AVK7lm": "Lorde",
     "2kO6mP0olFJGGh6kvUdNC8": "Des Rocs",
@@ -349,6 +361,109 @@
     "62G7ybeJSN91TgfsWsdDOb": "1000 Homo DJs"
   },
   "tracks": [
+    {
+      "id": "11VOYtYJ0Bstb7QOCDDs5e",
+      "artist_ids": [
+        "4pejUc4iciQfgdX6OKulQn"
+      ],
+      "title": "Carnavoyeur",
+      "popularity": 62,
+      "addedAt": 1685986150000
+    },
+    {
+      "id": "1hffzLWNeFthnUP4z01EPm",
+      "artist_ids": [
+        "01WjpKiWVNurV5hjIadB8C"
+      ],
+      "title": "Face Down",
+      "popularity": 50,
+      "addedAt": 1685986016000
+    },
+    {
+      "id": "7F3PCKTtnNk9Hciemnjmba",
+      "artist_ids": [
+        "3OsRAKCvk37zwYcnzRf5XF",
+        "1lhaaKpTyXOnjp79M3xYBl"
+      ],
+      "title": "Flower (Find My Baby) - Resound NYC Version",
+      "popularity": 48,
+      "addedAt": 1685985959000
+    },
+    {
+      "id": "6WrI0LAC5M1Rw2MnX2ZvEg",
+      "artist_ids": [
+        "6M2wZ9GZgrQXHCFfjv46we"
+      ],
+      "title": "Don't Start Now",
+      "popularity": 79,
+      "addedAt": 1685985669000
+    },
+    {
+      "id": "0VjIjW4GlUZAMYd2vXMi3b",
+      "artist_ids": [
+        "1Xyo4u8uXC1ZmMpatF05PJ"
+      ],
+      "title": "Blinding Lights",
+      "popularity": 92,
+      "addedAt": 1685985654000
+    },
+    {
+      "id": "0SiywuOBRcynK0uKGWdCnn",
+      "artist_ids": [
+        "1HY2Jd0NmPuamShAr6KMms"
+      ],
+      "title": "Bad Romance",
+      "popularity": 84,
+      "addedAt": 1685985584000
+    },
+    {
+      "id": "3BKD1PwArikchz2Zrlp1qi",
+      "artist_ids": [
+        "1Cs0zKBU1kc0i8ypK3B9ai",
+        "1zNqDE7qDGCsyzJwohVaoX",
+        "6AMd49uBDJfhf30Ak2QR5s"
+      ],
+      "title": "Baby Don't Hurt Me",
+      "popularity": 92,
+      "addedAt": 1685985509000
+    },
+    {
+      "id": "6qn9YLKt13AGvpq9jfO8py",
+      "artist_ids": [
+        "5pKCCKE2ajJHZ9KAiaK11H",
+        "7CajNmpbOovFoOoasH2HaY"
+      ],
+      "title": "We Found Love",
+      "popularity": 85,
+      "addedAt": 1685985441000
+    },
+    {
+      "id": "5srgpROEtK8KLKQl5FW7Ub",
+      "artist_ids": [
+        "50zRydJXfkLzGIOj9mITfy"
+      ],
+      "title": "Crockett's Theme",
+      "popularity": 46,
+      "addedAt": 1685985319000
+    },
+    {
+      "id": "4ZhPLoMzZwewHLLjV1J15c",
+      "artist_ids": [
+        "6Tz0QRoe083BcOo2YbG9lV"
+      ],
+      "title": "99 Luftballons",
+      "popularity": 76,
+      "addedAt": 1685985203000
+    },
+    {
+      "id": "4OdhffpvG3HxDJMxYOKh97",
+      "artist_ids": [
+        "0uAjBatvB4ubpd4kCfjmNt"
+      ],
+      "title": "I Ran (So Far Away)",
+      "popularity": 65,
+      "addedAt": 1685985150000
+    },
     {
       "id": "6QgjcU0zLnzq5OrUoSZ3OK",
       "artist_ids": [
