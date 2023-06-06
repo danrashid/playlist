@@ -96,7 +96,10 @@
           case "title":
             return `<a href="spotify:track:${track.id}">${track.title}</a>`;
           case "addedAt":
-            return new Date(track.addedAt).toISOString().slice(2, 10);
+            return new Date(track.addedAt)
+              .toISOString()
+              .slice(2, 10)
+              .replaceAll("-", ".");
           default:
             return track[key];
         }
