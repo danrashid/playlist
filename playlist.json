@@ -1,5 +1,7 @@
 {
   "artists": {
+    "3aQeKQSyrW4qWr35idm0cy": "T-Pain",
+    "0er9UL2h7qz1iGYSRNJcGN": "NandoSTL",
     "4pejUc4iciQfgdX6OKulQn": "Queens of the Stone Age",
     "01WjpKiWVNurV5hjIadB8C": "Filter",
     "3OsRAKCvk37zwYcnzRf5XF": "Moby",
@@ -362,12 +364,40 @@
   },
   "tracks": [
     {
+      "id": "6xaTAKDm9BCxBcHGZxQncL",
+      "artist_ids": [
+        "3aQeKQSyrW4qWr35idm0cy",
+        "0er9UL2h7qz1iGYSRNJcGN"
+      ],
+      "title": "That's Life (feat. NandoSTL)",
+      "popularity": 46,
+      "addedAt": 1686366860000
+    },
+    {
+      "id": "6lbXUz3ysZWYSbBFGiPgXJ",
+      "artist_ids": [
+        "3aQeKQSyrW4qWr35idm0cy"
+      ],
+      "title": "A Change Is Gonna Come",
+      "popularity": 50,
+      "addedAt": 1686366608000
+    },
+    {
+      "id": "5YZXVNIzaJquPCaSCePq98",
+      "artist_ids": [
+        "3aQeKQSyrW4qWr35idm0cy"
+      ],
+      "title": "War Pigs",
+      "popularity": 55,
+      "addedAt": 1686366524000
+    },
+    {
       "id": "11VOYtYJ0Bstb7QOCDDs5e",
       "artist_ids": [
         "4pejUc4iciQfgdX6OKulQn"
       ],
       "title": "Carnavoyeur",
-      "popularity": 62,
+      "popularity": 66,
       "addedAt": 1685986150000
     },
     {
@@ -443,7 +473,7 @@
         "50zRydJXfkLzGIOj9mITfy"
       ],
       "title": "Crockett's Theme",
-      "popularity": 46,
+      "popularity": 47,
       "addedAt": 1685985319000
     },
     {
@@ -461,7 +491,7 @@
         "0uAjBatvB4ubpd4kCfjmNt"
       ],
       "title": "I Ran (So Far Away)",
-      "popularity": 65,
+      "popularity": 66,
       "addedAt": 1685985150000
     },
     {
@@ -516,7 +546,7 @@
         "5YGY8feqx7naU7z4HrwZM6"
       ],
       "title": "River",
-      "popularity": 83,
+      "popularity": 82,
       "addedAt": 1678501731000
     },
     {
@@ -534,7 +564,7 @@
         "3PhoLpVuITZKcymswpck5b"
       ],
       "title": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
-      "popularity": 83,
+      "popularity": 84,
       "addedAt": 1677447668000
     },
     {
@@ -552,7 +582,7 @@
         "1dfeR4HaWDbWqFHLkxsg1d"
       ],
       "title": "Crazy Little Thing Called Love - Remastered 2011",
-      "popularity": 72,
+      "popularity": 73,
       "addedAt": 1674177787000
     },
     {
@@ -580,7 +610,7 @@
         "5LfGQac0EIXyAN8aUwmNAQ"
       ],
       "title": "Come Out and Play",
-      "popularity": 74,
+      "popularity": 75,
       "addedAt": 1673741598000
     },
     {
@@ -589,7 +619,7 @@
         "3daM7asS0gCFvyLemNx2EE"
       ],
       "title": "What I Like About You",
-      "popularity": 64,
+      "popularity": 65,
       "addedAt": 1673569206000
     },
     {
@@ -607,7 +637,7 @@
         "3XHO7cRUPCLOr6jwp8vsx5"
       ],
       "title": "Left Hand Free",
-      "popularity": 72,
+      "popularity": 73,
       "addedAt": 1671352130000
     },
     {
@@ -816,7 +846,7 @@
         "78SHxLdtysAXgywQ4vE0Oa"
       ],
       "title": "Glycerine",
-      "popularity": 67,
+      "popularity": 68,
       "addedAt": 1665332189000
     },
     {
@@ -843,7 +873,7 @@
         "3TNt4aUIxgfy9aoaft5Jj2"
       ],
       "title": "Wolf",
-      "popularity": 59,
+      "popularity": 60,
       "addedAt": 1665332079000
     },
     {
@@ -861,7 +891,7 @@
         "3ZGr7nQBXDU2WhyXgRVbt0"
       ],
       "title": "How To Fly",
-      "popularity": 69,
+      "popularity": 70,
       "addedAt": 1665331661000
     },
     {
@@ -907,7 +937,7 @@
         "3sO8muEXafy2NGwUZByrTr"
       ],
       "title": "The Seed (2.0)",
-      "popularity": 65,
+      "popularity": 66,
       "addedAt": 1662862090000
     },
     {
@@ -983,7 +1013,7 @@
         "3TNt4aUIxgfy9aoaft5Jj2"
       ],
       "title": "Burning",
-      "popularity": 1,
+      "popularity": 0,
       "addedAt": 1660876979000
     },
     {
@@ -1040,7 +1070,7 @@
         "6olE6TJLqED3rqDCT0FyPh"
       ],
       "title": "Lake Of Fire",
-      "popularity": 70,
+      "popularity": 71,
       "addedAt": 1659770190000
     },
     {
@@ -1076,7 +1106,7 @@
         "1GhPHrq36VKCY3ucVaZCfo"
       ],
       "title": "Block Rockin' Beats",
-      "popularity": 34,
+      "popularity": 35,
       "addedAt": 1659545823000
     },
     {
@@ -1133,7 +1163,7 @@
         "26VFTg2z8YR0cCuwLzESi2"
       ],
       "title": "I am not a woman, I'm a god",
-      "popularity": 44,
+      "popularity": 45,
       "addedAt": 1659158920000
     },
     {
@@ -1142,7 +1172,7 @@
         "26VFTg2z8YR0cCuwLzESi2"
       ],
       "title": "Girl is a Gun",
-      "popularity": 40,
+      "popularity": 41,
       "addedAt": 1659070015000
     },
     {
@@ -1178,7 +1208,7 @@
         "5MouCg6ta7zAxsfMEbc1uh"
       ],
       "title": "Cheerleader - Felix Jaehn Remix Radio Edit",
-      "popularity": 69,
+      "popularity": 70,
       "addedAt": 1658952278000
     },
     {
@@ -1269,7 +1299,7 @@
         "3pFCERyEiP5xeN2EsPXhjI"
       ],
       "title": "Feelin' Alright",
-      "popularity": 65,
+      "popularity": 66,
       "addedAt": 1658952278000
     },
     {
@@ -1437,7 +1467,7 @@
         "0L8ExT028jH3ddEcZwqJJ5"
       ],
       "title": "Breaking the Girl",
-      "popularity": 63,
+      "popularity": 64,
       "addedAt": 1658952278000
     },
     {
@@ -1446,7 +1476,7 @@
         "3AA28KZvwAUcZuOKwyblJQ"
       ],
       "title": "Feel Good Inc.",
-      "popularity": 85,
+      "popularity": 86,
       "addedAt": 1658952278000
     },
     {
@@ -1528,7 +1558,7 @@
         "0C0XlULifJtAgn6ZNCW2eu"
       ],
       "title": "All These Things That I've Done",
-      "popularity": 2,
+      "popularity": 1,
       "addedAt": 1658952278000
     },
     {
@@ -1564,7 +1594,7 @@
         "2yEwvVSSSUkcLeSTNyHKh8"
       ],
       "title": "Stinkfist",
-      "popularity": 69,
+      "popularity": 70,
       "addedAt": 1658952278000
     },
     {
@@ -1600,7 +1630,7 @@
         "7mnBLXK823vNxN3UWB7Gfz"
       ],
       "title": "Meet Me in the City",
-      "popularity": 56,
+      "popularity": 57,
       "addedAt": 1658952278000
     },
     {
@@ -1627,7 +1657,7 @@
         "6A43Djmhbe9100UwnI7epV"
       ],
       "title": "The Distance",
-      "popularity": 4,
+      "popularity": 3,
       "addedAt": 1658952278000
     },
     {
@@ -1747,7 +1777,7 @@
         "4Fh6eC8hJz13eXsboxXlcX"
       ],
       "title": "Leave You Far Behind",
-      "popularity": 45,
+      "popularity": 46,
       "addedAt": 1658952278000
     },
     {
@@ -1902,7 +1932,7 @@
         "6VDdCwrBM4qQaGxoAyxyJC"
       ],
       "title": "Who’s Gonna Love Me Now",
-      "popularity": 1,
+      "popularity": 0,
       "addedAt": 1658952278000
     },
     {
@@ -1938,7 +1968,7 @@
         "3jOstUTkEu2JkjvRdBA5Gu"
       ],
       "title": "Take on Me",
-      "popularity": 55,
+      "popularity": 56,
       "addedAt": 1658952278000
     },
     {
@@ -1975,7 +2005,7 @@
         "3HVdAiMNjYrQIKlOGxoGh5"
       ],
       "title": "Dragula - Si Non Oscillas, Noli Tintinnare Mix",
-      "popularity": 45,
+      "popularity": 46,
       "addedAt": 1658952278000
     },
     {
@@ -2068,7 +2098,7 @@
         "5uYXMC13cIUulobh204QuK"
       ],
       "title": "The Impression That I Get",
-      "popularity": 69,
+      "popularity": 70,
       "addedAt": 1658952278000
     },
     {
@@ -2106,7 +2136,7 @@
         "3WrFJ7ztbogyGnTHbHJFl2"
       ],
       "title": "Long Tall Sally - Remastered 2009",
-      "popularity": 22,
+      "popularity": 23,
       "addedAt": 1658952278000
     },
     {
@@ -2180,7 +2210,7 @@
         "238VsHGAd80hVsQCKc5AK7"
       ],
       "title": "My Tortured Soul (feat. Eric Wagner)",
-      "popularity": 29,
+      "popularity": 30,
       "addedAt": 1658952278000
     },
     {
@@ -2189,7 +2219,7 @@
         "6YWdHD3R863Apw1hkx3BwC"
       ],
       "title": "We Gotta Get out of This Place",
-      "popularity": 39,
+      "popularity": 38,
       "addedAt": 1658952278000
     },
     {
@@ -2289,7 +2319,7 @@
         "6qqNVTkY8uBg9cP3Jd7DAH"
       ],
       "title": "bad guy",
-      "popularity": 84,
+      "popularity": 85,
       "addedAt": 1658952278000
     },
     {
@@ -2325,7 +2355,7 @@
         "6KOqPxwfNAmZPkiCnDE9yT"
       ],
       "title": "Steppin' Out",
-      "popularity": 56,
+      "popularity": 57,
       "addedAt": 1658952278000
     },
     {
@@ -2363,7 +2393,7 @@
         "02uYdhMhCgdB49hZlYRm9o"
       ],
       "title": "Just Dropped In (To See What Condition My Condition Is In)",
-      "popularity": 31,
+      "popularity": 32,
       "addedAt": 1658952278000
     },
     {
@@ -2445,7 +2475,7 @@
         "5svDnd8joFhbpbA3Ar0CfN"
       ],
       "title": "A Little Less Conversation - JXL12\" Extended Remix",
-      "popularity": 35,
+      "popularity": 36,
       "addedAt": 1658952278000
     },
     {
@@ -2490,7 +2520,7 @@
         "163tK9Wjr9P9DmM0AVK7lm"
       ],
       "title": "Royals",
-      "popularity": 81,
+      "popularity": 82,
       "addedAt": 1658952278000
     },
     {
@@ -2526,7 +2556,7 @@
         "0X2BH1fck6amBIoJhDVmmJ"
       ],
       "title": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
-      "popularity": 52,
+      "popularity": 53,
       "addedAt": 1658952278000
     },
     {
@@ -2535,7 +2565,7 @@
         "7mnBLXK823vNxN3UWB7Gfz"
       ],
       "title": "Psychotic Girl",
-      "popularity": 54,
+      "popularity": 55,
       "addedAt": 1658952278000
     },
     {
@@ -2598,7 +2628,7 @@
         "2exebQUDoIoT0dXA8BcN1P"
       ],
       "title": "If I'm Wrong",
-      "popularity": 44,
+      "popularity": 45,
       "addedAt": 1658952278000
     },
     {
@@ -2645,7 +2675,7 @@
         "3J6DEhsjKpqlZEHP0SPYfk"
       ],
       "title": "Space Age Girl Machine",
-      "popularity": 21,
+      "popularity": 22,
       "addedAt": 1658952278000
     },
     {
@@ -2694,7 +2724,7 @@
         "3IYUhFvPQItj6xySrBmZkd"
       ],
       "title": "Up Around The Bend",
-      "popularity": 67,
+      "popularity": 68,
       "addedAt": 1658952278000
     },
     {
@@ -2739,7 +2769,7 @@
         "2yEwvVSSSUkcLeSTNyHKh8"
       ],
       "title": "Fear Inoculum",
-      "popularity": 60,
+      "popularity": 61,
       "addedAt": 1658952278000
     },
     {
@@ -2793,7 +2823,7 @@
         "3yEnArbNHyTCwMRvD9SBy4"
       ],
       "title": "Woman",
-      "popularity": 64,
+      "popularity": 65,
       "addedAt": 1658952278000
     },
     {
@@ -2811,7 +2841,7 @@
         "4FZ3j1oH43e7cukCALsCwf"
       ],
       "title": "Into the Twilight",
-      "popularity": 37,
+      "popularity": 38,
       "addedAt": 1658952278000
     },
     {
@@ -2838,7 +2868,7 @@
         "3jOstUTkEu2JkjvRdBA5Gu"
       ],
       "title": "Happy Together",
-      "popularity": 52,
+      "popularity": 53,
       "addedAt": 1658952278000
     },
     {
@@ -2915,7 +2945,7 @@
         "3g2kUQ6tHLLbmkV7T4GPtL"
       ],
       "title": "I Know (feat. Fiona Apple) - RISE Recording",
-      "popularity": 44,
+      "popularity": 45,
       "addedAt": 1658952278000
     },
     {
@@ -2933,7 +2963,7 @@
         "3WrFJ7ztbogyGnTHbHJFl2"
       ],
       "title": "Within You Without You - Remastered 2009",
-      "popularity": 53,
+      "popularity": 54,
       "addedAt": 1658952278000
     },
     {
@@ -3108,7 +3138,7 @@
         "2ueoLVCXQ948OfhVvAy3Nn"
       ],
       "title": "Spitting Off the Edge of the World",
-      "popularity": 2,
+      "popularity": 1,
       "addedAt": 1658952278000
     },
     {
@@ -3117,7 +3147,7 @@
         "1WRM9i067hd2ujxxi8FI3m"
       ],
       "title": "Born To Be Wild - Single Version",
-      "popularity": 70,
+      "popularity": 71,
       "addedAt": 1658952278000
     },
     {
@@ -3153,7 +3183,7 @@
         "6VDdCwrBM4qQaGxoAyxyJC"
       ],
       "title": "First",
-      "popularity": 68,
+      "popularity": 69,
       "addedAt": 1658952278000
     },
     {
@@ -3267,7 +3297,7 @@
         "7C4sUpWGlTy7IANjruj02I"
       ],
       "title": "Sledgehammer - 2012 Remaster",
-      "popularity": 60,
+      "popularity": 61,
       "addedAt": 1658952278000
     },
     {
@@ -3389,7 +3419,7 @@
         "4zYQWYmtimAEmI6WWEzGfO"
       ],
       "title": "No One Loves Me and Neither Do I",
-      "popularity": 56,
+      "popularity": 57,
       "addedAt": 1658952278000
     },
     {
@@ -3407,7 +3437,7 @@
         "36QJpDe2go2KgaRleHCDTp"
       ],
       "title": "Rock and Roll - Remaster",
-      "popularity": 73,
+      "popularity": 74,
       "addedAt": 1658952278000
     },
     {
@@ -3551,7 +3581,7 @@
         "0epOFNiUfyON9EYx7Tpr6V"
       ],
       "title": "You Only Live Once",
-      "popularity": 74,
+      "popularity": 75,
       "addedAt": 1658952278000
     },
     {
@@ -3569,7 +3599,7 @@
         "5K4W6rqBFWDnAN6FQUkS6x"
       ],
       "title": "Stronger",
-      "popularity": 10,
+      "popularity": 9,
       "addedAt": 1658952278000
     },
     {
@@ -3632,7 +3662,7 @@
         "4FZ3j1oH43e7cukCALsCwf"
       ],
       "title": "Fear Of The Dawn",
-      "popularity": 28,
+      "popularity": 29,
       "addedAt": 1658952278000
     },
     {
@@ -3688,7 +3718,7 @@
         "4uYwLU7k03RCQSRXGtQGg0"
       ],
       "title": "Blue Monday",
-      "popularity": 64,
+      "popularity": 65,
       "addedAt": 1658952278000
     },
     {
@@ -3808,7 +3838,7 @@
         "6w7fc6IZlo5zwBaKT5jU1X"
       ],
       "title": "Mrs. Robinson - Remastered",
-      "popularity": 23,
+      "popularity": 22,
       "addedAt": 1658952278000
     },
     {
@@ -3817,7 +3847,7 @@
         "7mnBLXK823vNxN3UWB7Gfz"
       ],
       "title": "Lonely Boy",
-      "popularity": 76,
+      "popularity": 77,
       "addedAt": 1658952278000
     },
     {
@@ -3889,7 +3919,7 @@
         "3vbKDsSS70ZX9D2OcvbZmS"
       ],
       "title": "Loser",
-      "popularity": 73,
+      "popularity": 74,
       "addedAt": 1658952278000
     },
     {
@@ -3944,7 +3974,7 @@
         "6xHUXzrfhFgnIv86EBR3Ml"
       ],
       "title": "Never Be Like You (feat. Kai)",
-      "popularity": 70,
+      "popularity": 71,
       "addedAt": 1658952278000
     },
     {
@@ -3980,7 +4010,7 @@
         "0OTY72l7CC7ynKzp6N2o5b"
       ],
       "title": "Brute Force",
-      "popularity": 33,
+      "popularity": 34,
       "addedAt": 1658952278000
     },
     {
@@ -3998,7 +4028,7 @@
         "37uLId6Z5ZXCx19vuruvv5"
       ],
       "title": "Shake A Fist",
-      "popularity": 30,
+      "popularity": 31,
       "addedAt": 1658952278000
     },
     {
@@ -4045,7 +4075,7 @@
         "3WrFJ7ztbogyGnTHbHJFl2"
       ],
       "title": "Blackbird - Remastered 2009",
-      "popularity": 77,
+      "popularity": 78,
       "addedAt": 1658952278000
     },
     {
@@ -4054,7 +4084,7 @@
         "5BKsn7SCN2XmbF7apdCpRS"
       ],
       "title": "Strict Machine",
-      "popularity": 55,
+      "popularity": 56,
       "addedAt": 1658952278000
     },
     {
@@ -4072,7 +4102,7 @@
         "0X380XXQSNBYuleKzav5UO"
       ],
       "title": "Metal - Remix",
-      "popularity": 31,
+      "popularity": 32,
       "addedAt": 1658952278000
     },
     {
@@ -4239,7 +4269,7 @@
         "2yEwvVSSSUkcLeSTNyHKh8"
       ],
       "title": "Sober",
-      "popularity": 70,
+      "popularity": 71,
       "addedAt": 1658952278000
     },
     {
@@ -4302,7 +4332,7 @@
         "5DYAABs8rkY9VhwtENoQCz"
       ],
       "title": "Sweeter",
-      "popularity": 43,
+      "popularity": 44,
       "addedAt": 1658952278000
     },
     {
@@ -4320,7 +4350,7 @@
         "7oPftvlwr6VrsViSDV7fJY"
       ],
       "title": "Basket Case",
-      "popularity": 83,
+      "popularity": 84,
       "addedAt": 1658952278000
     },
     {
@@ -4338,7 +4368,7 @@
         "3g2kUQ6tHLLbmkV7T4GPtL"
       ],
       "title": "Criminal",
-      "popularity": 64,
+      "popularity": 65,
       "addedAt": 1658952278000
     },
     {
@@ -4356,7 +4386,7 @@
         "6kACVPfCOnqzgfEF5ryl0x"
       ],
       "title": "God's Gonna Cut You Down",
-      "popularity": 65,
+      "popularity": 66,
       "addedAt": 1658952278000
     },
     {
@@ -4365,7 +4395,7 @@
         "7G1GBhoKtEPnP86X2PvEYO"
       ],
       "title": "Feeling Good",
-      "popularity": 75,
+      "popularity": 76,
       "addedAt": 1658952278000
     },
     {
@@ -4383,7 +4413,7 @@
         "3WrFJ7ztbogyGnTHbHJFl2"
       ],
       "title": "Mother Nature's Son - Remastered 2009",
-      "popularity": 55,
+      "popularity": 56,
       "addedAt": 1658952278000
     },
     {
@@ -4393,7 +4423,7 @@
         "55Aa2cqylxrFIXC767Z865"
       ],
       "title": "Let It Rock",
-      "popularity": 67,
+      "popularity": 68,
       "addedAt": 1658952278000
     },
     {
@@ -4411,7 +4441,7 @@
         "2S5hlvw4CMtMGswFtfdK15"
       ],
       "title": "Figure It Out",
-      "popularity": 61,
+      "popularity": 62,
       "addedAt": 1658952278000
     },
     {
@@ -4429,7 +4459,7 @@
         "7mnBLXK823vNxN3UWB7Gfz"
       ],
       "title": "Lo/Hi",
-      "popularity": 43,
+      "popularity": 44,
       "addedAt": 1658952278000
     },
     {
@@ -4456,7 +4486,7 @@
         "4Z8W4fKeB5YxbusRsdQVPb"
       ],
       "title": "Creep",
-      "popularity": 2,
+      "popularity": 1,
       "addedAt": 1658952278000
     },
     {
@@ -4519,7 +4549,7 @@
         "2yEwvVSSSUkcLeSTNyHKh8"
       ],
       "title": "Opiate²",
-      "popularity": 54,
+      "popularity": 55,
       "addedAt": 1658952278000
     },
     {
@@ -4603,7 +4633,7 @@
         "5sD1ZLf2dGQ9gQ3YJl1eAd"
       ],
       "title": "No Rain",
-      "popularity": 77,
+      "popularity": 78,
       "addedAt": 1658952278000
     },
     {
@@ -4686,7 +4716,7 @@
         "6hnWRPzGGKiapVX1UCdEAC"
       ],
       "title": "Twistin' the Night Away",
-      "popularity": 64,
+      "popularity": 65,
       "addedAt": 1658952278000
     },
     {
@@ -4704,7 +4734,7 @@
         "0cc6vw3VN8YlIcvr1v7tBL"
       ],
       "title": "Kickstart My Heart",
-      "popularity": 5,
+      "popularity": 4,
       "addedAt": 1658952278000
     },
     {
@@ -4822,7 +4852,7 @@
         "7FBcuc1gsnv6Y1nwFtNRCb"
       ],
       "title": "Teenagers",
-      "popularity": 82,
+      "popularity": 83,
       "addedAt": 1658952278000
     },
     {
@@ -4867,7 +4897,7 @@
         "5m8H6zSadhu1j9Yi04VLqD"
       ],
       "title": "Everyday People",
-      "popularity": 57,
+      "popularity": 58,
       "addedAt": 1658952278000
     },
     {
@@ -4921,7 +4951,7 @@
         "3qm84nBOXUEQ2vnTfUTTFC"
       ],
       "title": "Sweet Child O' Mine",
-      "popularity": 87,
+      "popularity": 88,
       "addedAt": 1658952278000
     },
     {
@@ -4948,7 +4978,7 @@
         "6FXMGgJwohJLUSr5nVlf9X"
       ],
       "title": "Angel",
-      "popularity": 65,
+      "popularity": 66,
       "addedAt": 1658952278000
     },
     {
