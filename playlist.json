@@ -1,5 +1,26 @@
 {
   "artists": {
+    "2EiUFCnwVBJ11bHlbwBypw": "Noisecream",
+    "2x9SpqnPi8rlE9pjHBwmSC": "Talking Heads",
+    "7A9yZMTrFZcgEWAX2kBfK6": "Huey Lewis & The News",
+    "4Y7tXHSEejGu1vQ9bwDdXW": "Fatboy Slim",
+    "6mU76NVrD4mcmA5WIoiUMV": "Daniel Steinberg",
+    "0yb46jwm7gqbZXVXZQ8Z1e": "Bishop Briggs",
+    "7bcbShaqKdcyjnmv4Ix8j6": "St. Vincent",
+    "4FZ3j1oH43e7cukCALsCwf": "Jack White",
+    "3l14gV4hIMAjmo7KUvEWTx": "Elastica",
+    "1vaQ6v3pOFxAIrFoPrAcom": "Ari Lennox",
+    "5arKwJZEvT5uKq4o0JfqR4": "Isabel LaRosa",
+    "4I2QW85rkIhCRRZt1kuBqS": "GoldFord",
+    "0US6t3wOzabccOupxTHl2S": "Cam Cole",
+    "0OcclcP5o8VKH2TRqSY2A7": "Howard Shore",
+    "7C6uL34hLmCedBXoPxC4cO": "Larry Saltzman",
+    "6pA6z9BWm4Y3L2pc4h4LfY": "Jamey Haddad",
+    "7jAeRfT8LYCxydM2Y1Egvn": "Marc Ribot",
+    "3JamY45rtaJluNZPgdVSkl": "Shawn Pelton",
+    "7LaxwrjACExPLSKTDJnwDJ": "Tim Le Febvre",
+    "4jZfJWTKg0oea9gn2EER4C": "Geordie Kieffer",
+    "14vYoLdUPv6OaignN6auHL": "Peg City",
     "4TwHRCIu3Xg9fjS3l7owkp": "The Gap Band",
     "6uothxMWeLWIhsGeF7cyo4": "Enya",
     "6LqNN22kT3074XbTVUrhzX": "Kesha",
@@ -24,7 +45,6 @@
     "0VNWuGf8SMVU2AerpdhMbP": "The Black Angels",
     "1HY2Jd0NmPuamShAr6KMms": "Lady Gaga",
     "5CCwRZC6euC8Odo6y9X8jr": "Rita Ora",
-    "4Y7tXHSEejGu1vQ9bwDdXW": "Fatboy Slim",
     "1moxjboGR7GNWYIMWsRjgG": "Florence + The Machine",
     "29kkCKKGXheHuoO829FxWK": "Boston",
     "3CQIn7N5CuRDP8wEI7FiDA": "Run–D.M.C.",
@@ -56,7 +76,6 @@
     "066X20Nz7iquqkkCW6Jxy6": "LCD Soundsystem",
     "3TNt4aUIxgfy9aoaft5Jj2": "Yeah Yeah Yeahs",
     "2KsP6tYLJlTBvSUxnwlVWa": "Mike Posner",
-    "4FZ3j1oH43e7cukCALsCwf": "Jack White",
     "1vCWHaC5f2uS3yhpwWbIA6": "Avicii",
     "2BVYdY4PyfCF9z4NrkhEB2": "Sam & Dave",
     "78xUyw6FkVZrRAtziFdtdu": "The Roots",
@@ -71,7 +90,6 @@
     "4RnBFZRiMLRyZy0AzzTg2C": "Run The Jewels",
     "6olE6TJLqED3rqDCT0FyPh": "Nirvana",
     "1GhPHrq36VKCY3ucVaZCfo": "The Chemical Brothers",
-    "7bcbShaqKdcyjnmv4Ix8j6": "St. Vincent",
     "6beUvFUlKliUYJdLOXNj9C": "King Princess",
     "26VFTg2z8YR0cCuwLzESi2": "Halsey",
     "6KOqPxwfNAmZPkiCnDE9yT": "Joe Jackson",
@@ -98,7 +116,6 @@
     "163tK9Wjr9P9DmM0AVK7lm": "Lorde",
     "4YLtscXsxbVgi031ovDDdh": "Chris Stapleton",
     "51Blml2LZPmy7TTiAg47vQ": "U2",
-    "7A9yZMTrFZcgEWAX2kBfK6": "Huey Lewis & The News",
     "6LHsnRBUYhFyt01PdKXAF5": "Bob Moses",
     "18H0sAptzdwid08XGg1Lcj": "Death From Above 1979",
     "3CjlHNtplJyTf9npxaPl5w": "CHVRCHES",
@@ -312,6 +329,172 @@
     "69Mj3u4FTUrpyeGNSIaU6F": "The J. Geils Band"
   },
   "tracks": [
+    {
+      "id": "1zk13qn2OJYa9Y7GJ08Lt3",
+      "artist_ids": [
+        "2EiUFCnwVBJ11bHlbwBypw"
+      ],
+      "title": "The Doom Party",
+      "addedAt": 1735250329000
+    },
+    {
+      "id": "1Tr4K5MU5XYE44umXGDndd",
+      "artist_ids": [
+        "2x9SpqnPi8rlE9pjHBwmSC"
+      ],
+      "title": "Once in a Lifetime",
+      "addedAt": 1735250139000
+    },
+    {
+      "id": "1lr7QGyV5RohlODzAqnuZA",
+      "artist_ids": [
+        "7A9yZMTrFZcgEWAX2kBfK6"
+      ],
+      "title": "Back In Time",
+      "addedAt": 1735250015000
+    },
+    {
+      "id": "07zQBNfxQWG6dQZUO4DM9l",
+      "artist_ids": [
+        "4Y7tXHSEejGu1vQ9bwDdXW"
+      ],
+      "title": "That Old Pair Of Jeans",
+      "addedAt": 1734560749000
+    },
+    {
+      "id": "69qwWu8dQwaTABh5B9r8xn",
+      "artist_ids": [
+        "4Y7tXHSEejGu1vQ9bwDdXW",
+        "6mU76NVrD4mcmA5WIoiUMV"
+      ],
+      "title": "Bus Stop Please",
+      "addedAt": 1734560651000
+    },
+    {
+      "id": "3mRLHiSHYtC8Hk7bzZdUs1",
+      "artist_ids": [
+        "0yb46jwm7gqbZXVXZQ8Z1e"
+      ],
+      "title": "River",
+      "addedAt": 1734559715000
+    },
+    {
+      "id": "7MgW1WDiomDfxfs3pNUEeR",
+      "artist_ids": [
+        "7bcbShaqKdcyjnmv4Ix8j6"
+      ],
+      "title": "Hombre Roto",
+      "addedAt": 1734497172000
+    },
+    {
+      "id": "2qGTMK4NlzXfdCZMWFrhWu",
+      "artist_ids": [
+        "7bcbShaqKdcyjnmv4Ix8j6"
+      ],
+      "title": "El Mero Cero",
+      "addedAt": 1734497158000
+    },
+    {
+      "id": "2ly7NUHt66r1J0w3KBFAVs",
+      "artist_ids": [
+        "4FZ3j1oH43e7cukCALsCwf"
+      ],
+      "title": "I've Got You Surrounded (With My Love)",
+      "addedAt": 1731478839000
+    },
+    {
+      "id": "0hIYrRFTLlG8pRjAn9tW4P",
+      "artist_ids": [
+        "4FZ3j1oH43e7cukCALsCwf"
+      ],
+      "title": "Archbishop Harold Holmes",
+      "addedAt": 1731478667000
+    },
+    {
+      "id": "53LZqMzQEnjBkFXPqOq0cD",
+      "artist_ids": [
+        "3l14gV4hIMAjmo7KUvEWTx"
+      ],
+      "title": "Connection",
+      "addedAt": 1729890085000
+    },
+    {
+      "id": "6Z0yKCHpLXoDVqFSlWh9OM",
+      "artist_ids": [
+        "1vaQ6v3pOFxAIrFoPrAcom"
+      ],
+      "title": "Smoke",
+      "addedAt": 1729472401000
+    },
+    {
+      "id": "7x8sZN055fsMdU8ymA92UI",
+      "artist_ids": [
+        "5arKwJZEvT5uKq4o0JfqR4"
+      ],
+      "title": "Muse",
+      "addedAt": 1729472271000
+    },
+    {
+      "id": "6ScGvnnuv1Ag1oouYS8xLW",
+      "artist_ids": [
+        "4I2QW85rkIhCRRZt1kuBqS"
+      ],
+      "title": "Ride the Storm",
+      "addedAt": 1728155716000
+    },
+    {
+      "id": "0oyfDe0903Cn8UOthKS8kp",
+      "artist_ids": [
+        "0US6t3wOzabccOupxTHl2S"
+      ],
+      "title": "Mama",
+      "addedAt": 1726948843000
+    },
+    {
+      "id": "3UdG2wSz42YFW8PwRlnGd7",
+      "artist_ids": [
+        "0OcclcP5o8VKH2TRqSY2A7",
+        "7C6uL34hLmCedBXoPxC4cO",
+        "6pA6z9BWm4Y3L2pc4h4LfY",
+        "7jAeRfT8LYCxydM2Y1Egvn",
+        "3JamY45rtaJluNZPgdVSkl",
+        "7LaxwrjACExPLSKTDJnwDJ"
+      ],
+      "title": "The Departed Tango (feat. Larry Saltzman, Jamey Haddad, Marc Ribot, Shawn Pelton & Tim Le Febvre)",
+      "addedAt": 1726947211000
+    },
+    {
+      "id": "1BFXvitq0DaAn8c4wh0dqa",
+      "artist_ids": [
+        "4jZfJWTKg0oea9gn2EER4C"
+      ],
+      "title": "Red Line",
+      "addedAt": 1726938239000
+    },
+    {
+      "id": "5emiQhrF0gJWIgfulqMwvT",
+      "artist_ids": [
+        "14vYoLdUPv6OaignN6auHL"
+      ],
+      "title": "Dancing on the People",
+      "addedAt": 1726938040000
+    },
+    {
+      "id": "1PEjhR1CCdINF8TyM5s8LX",
+      "artist_ids": [
+        "4FZ3j1oH43e7cukCALsCwf"
+      ],
+      "title": "That's How I'm Feeling",
+      "addedAt": 1725220737000
+    },
+    {
+      "id": "5Vi4wnQLLs4zZSpnngTbEE",
+      "artist_ids": [
+        "4FZ3j1oH43e7cukCALsCwf"
+      ],
+      "title": "Old Scratch Blues",
+      "addedAt": 1725072335000
+    },
     {
       "id": "1VKPiQJnV15flF5B3zeocD",
       "artist_ids": [
